@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Swiper</title>
+  </head>
+  <body>
+
+    <p>Drag the things here</p>
+
+    <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <br>
+    <img id="drag1" src="./imgs/pic1.jpg" draggable="true" ondragstart="drag(event)"   >
+
+    <div class="container">
+      <div class="cards">
+        <!-- <div id="div1" class="card" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img id="drag1" src="./imgs/pic1.jpg" draggable="true" ondragstart="drag(event)" width="69" height="69"src="" alt="drag and drop" />
+            <div class="card__content">
+              <h1>Heading 1</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum,
+                voluptatibus!
+              </p>
+            </div>
+          </div> -->
+        <div class="card">
+          <img ondrop="drop(event)" ondragover="allowDrop(event)" src="./imgs/pic1.jpg" alt="" />
+          <div class="card__content">
+            <h1>Heading 1</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum,
+              voluptatibus!
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img ondrop="drop(event)" ondragover="allowDrop(event)" src="./imgs/pic2.jpg" alt="" />
+          <div class="card__content">
+            <h1>Heading 2</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum,
+              voluptatibus!
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img ondrop="drop(event)" ondragover="allowDrop(event)" src="./imgs/pic3.jpg" alt="" />
+          <div class="card__content">
+            <h1>Heading 3</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum,
+              voluptatibus!
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img ondrop="drop(event)" ondragover="allowDrop(event)" src="./imgs/pic4.jpg" alt="" />
+          <div class="card__content">
+            <h1>Heading 4</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum,
+              voluptatibus!
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img ondrop="drop(event)" ondragover="allowDrop(event)" src="./imgs/pic5.jpg" alt="" />
+          <div class="card__content">
+            <h1>Heading 5</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum,
+              voluptatibus!
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img ondrop="drop(event)" ondragover="allowDrop(event)" src="./imgs/pic6.jpg" alt="" />
+          <div class="card__content">
+            <h1>Heading 6</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum,
+              voluptatibus!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
